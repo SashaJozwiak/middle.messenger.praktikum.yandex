@@ -32,6 +32,7 @@
             .avatar{
                 display: flex;
                 justify-content: center;
+                flex-direction: column;
                 align-items: center;
 
                 width: 130px;
@@ -40,11 +41,30 @@
                 border-radius: 50%;
 
                 img {
+                    display: block;
                     width: 45px;
                     height: 45px;
                 }
 
+                button {
+                    display: none;
+                    font-weight: 500;
+                    position: absolute;
+                    font-size: 13px;
+                    font-weight: bold;
+                    line-height: 14px;
+                    color: #FFFFFF;
+                }
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: #b1b1b1;
+                    button {
+                        display: block;
+                    }
+                }
             }
+
             .name {
                 margin-top: 21px;
                 font-weight: 600;

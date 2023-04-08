@@ -537,6 +537,7 @@ body a:hover {
 }
 
 .xG0jkW_container .xG0jkW_profile .xG0jkW_data .xG0jkW_avatar:hover {
+  cursor: pointer;
   background-color: #b1b1b1;
 }
 

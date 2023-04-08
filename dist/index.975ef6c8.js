@@ -11875,21 +11875,21 @@ const data = {
 };
 
 },{"./profile.module.scss":"fcoCm","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fcoCm":[function(require,module,exports) {
-module.exports["data"] = `xG0jkW_data`;
 module.exports["login"] = `xG0jkW_login`;
 module.exports["nickname"] = `xG0jkW_nickname`;
-module.exports["profile"] = `xG0jkW_profile`;
-module.exports["avatar"] = `xG0jkW_avatar`;
-module.exports["phone"] = `xG0jkW_phone`;
-module.exports["sidebar"] = `xG0jkW_sidebar`;
-module.exports["exit"] = `xG0jkW_exit`;
 module.exports["info"] = `xG0jkW_info`;
-module.exports["container"] = `xG0jkW_container`;
-module.exports["firstname"] = `xG0jkW_firstname`;
-module.exports["dashboard"] = `xG0jkW_dashboard`;
-module.exports["name"] = `xG0jkW_name`;
+module.exports["avatar"] = `xG0jkW_avatar`;
 module.exports["email"] = `xG0jkW_email`;
+module.exports["profile"] = `xG0jkW_profile`;
+module.exports["exit"] = `xG0jkW_exit`;
+module.exports["dashboard"] = `xG0jkW_dashboard`;
+module.exports["container"] = `xG0jkW_container`;
 module.exports["lastname"] = `xG0jkW_lastname`;
+module.exports["sidebar"] = `xG0jkW_sidebar`;
+module.exports["name"] = `xG0jkW_name`;
+module.exports["data"] = `xG0jkW_data`;
+module.exports["firstname"] = `xG0jkW_firstname`;
+module.exports["phone"] = `xG0jkW_phone`;
 
 },{}],"bO2SS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");

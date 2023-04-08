@@ -10,4 +10,5 @@
 
 ---
 
-[Макет](<https://www.figma.com/file/hqZ4tcgSUlQccoBOPrB38p/Chat_external_link-(Copy)-(Copy)?node-id=0-1&t=LYlPS5p9hOgtUtBX-0>)
+[Макет](<https://www.figma.com/file/hqZ4tcgSUlQccoBOPrB38p/Chat_external_link-(Copy)-(Copy)?node-id=0-1&t=LYlPS5p9hOgtUtBX-0>)  
+[Deploy](<https://radiant-brioche-bff429.netlify.app/>)

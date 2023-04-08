@@ -54,6 +54,9 @@
                     font-weight: bold;
                     line-height: 14px;
                     color: #FFFFFF;
+                    &:hover {
+                        cursor: pointer;
+                    }
                 }
 
                 &:hover {

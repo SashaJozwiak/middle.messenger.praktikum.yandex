@@ -1,0 +1,20 @@
+<main class={{ styles.container }}>
+  <div class={{ styles.auth }}>
+    <h1 class={{ styles.title }}>{{ title }}</h1>
+    <form class={{ styles.form }} action="">
+
+        <label class={{ styles.label }} for="login"><p>Login</p></label>
+        <input id="login" name="login" type="text" placeholder="Логин">
+        <p class={{ styles.error}}></p>
+
+        <label class={{ styles.label }} for="password"><p>Password</p></label>
+        <input id="password" name="password" type="password" placeholder="Пароль">
+        <p class={{ styles.error}}></p>
+
+        <div class={{ styles.buttons }}>
+          <button type="submit">Авторизоваться</button>
+          <a href="/register">Нет аккаунта?</a>
+        </div>
+    </form>
+  </div>
+</main>

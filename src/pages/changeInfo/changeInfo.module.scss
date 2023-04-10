@@ -99,8 +99,39 @@
             }
 
         .profile-info {
+
             width: 510px;
             margin-top: 60px;
+            text-align: center;
+
+            input {
+                 
+                height: 13px;
+                border: none;
+                background: #ffffff;
+                
+                text-align: right;
+                outline: none;
+
+                &::-webkit-input-placeholder {
+                    
+                    color: #999;
+                    font-size: 13px;
+                    font-weight: 500;
+                    line-height: 13px;
+                    
+                    opacity: 1;
+                    transition: opacity 0.3s ease;
+                }
+                &:focus::-webkit-input-placeholder {
+
+                    bottom: 10px;
+                    opacity:0.3;
+                    transition: opacity 0.3s ease;
+                }
+            }
+
+            
             
             
             .email,
@@ -136,23 +167,24 @@
                     background: #EAEAEA;
                     width: 890px;
                     margin: 10px auto;
-                    
-                    
+
                 }
 
 
             }
 
-            .dashboard {
-                padding-top: 60px;
-                
+            .save {
+                width: 280px;
+                height: 37px;
+                margin: 60px auto;
+                border: 1px solid gray;
+
+                font-weight: 500;
                 font-size: 13px;
                 line-height: 13px;
-
-                .exit {
-                    color: #FF0000;
-                    cursor: pointer;
-                }
+                background-color: #3369F3;
+                color: #FFFFFF;
+                cursor: pointer;
             }
 
 

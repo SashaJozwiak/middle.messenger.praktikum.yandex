@@ -1,0 +1,32 @@
+<div class={{ styles.container }}>
+    <div class={{ styles.profile }}> 
+        <a href="/chat/profile">Профиль ></a>
+    </div>
+    <div class={{ styles.search }}>
+        <form action="">
+            <label for="search">
+                <input id="search" type="text" placeholder="Поиск">
+            </label>
+        </form>
+    </div>
+    <ul class={{ styles.list }}>
+    {{#each users}}
+        <li class={{ styles.list-element }}>
+            <div class={{ styles.avatar }}></div>
+
+            <div class={{ styles.short-message }}>
+                <h4 class={{ styles.name }}>{{ name }}</h4>
+                <p class={{styles.last-message}}>{{ last_message }}</p>
+            </div>
+            
+            <div class={{ styles.info }}>
+                <div class={{ styles.date }}>{{ date }}</div>
+                {{#if notification}}
+                <div class= {{ styles.notification }}>{{ notification }}</div>
+                {{/if}}
+            </div>
+        </li>
+    {{/each}}
+    
+    </ul>
+</div>

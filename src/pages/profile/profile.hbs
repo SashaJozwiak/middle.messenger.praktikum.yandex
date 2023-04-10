@@ -1,0 +1,64 @@
+<div class={{ styles.container }}>
+    <div class={{ styles.sidebar }}>
+            <a href="/chat"><img src="/public/images/arrow_left.svg" alt="img_arrow_left"></a>
+    </div>
+
+    <div class={{ styles.profile }}>
+        
+        <div class={{ styles.data }}>
+            <div class={{ styles.avatar }}>
+                <img src="/public/images/ava.svg" alt="avatar">
+                <label class="input-avatar">
+                    Поменять <br> аватар
+                    <input class="input-avatar_btn" id="avatar" type="file" name="avatar">		
+                </label>
+            </div>
+
+            <div class={{ styles.name }}>Иван</div>
+
+            <div class={{ styles.profile-info }}>
+                <div class={{ styles.email }}>
+                    <p class={{ styles.title }}>Почта</p>
+                    <p class={{ styles.value }}>pochta@yandex.ru</p>
+                </div>
+                <div class={{ styles.login }}>
+                    <p class={{ styles.title }}>Логин</p>
+                    <p class={{ styles.value }}>ivanivanov</p>
+                </div>
+                <div class={{ styles.firstname }}>
+                    <p class={{ styles.title }}>Имя</p>
+                    <p class={{ styles.value }}>Иван</p>
+                </div>
+                <div class={{ styles.lastname }}>
+                    <p class={{ styles.title }}>Фамилия</p>
+                    <p class={{ styles.value }}>Иванов</p></div>
+                <div class={{ styles.nickname }}>
+                    <p class={{ styles.title }}>Имя в чате</p>
+                    <p class={{ styles.value }}>Иван</p>
+                </div>
+                <div class={{ styles.phone }}>
+                    <p class={{ styles.title }}>Телефон</p>
+                    <p class={{ styles.value }}>+7 (909) 967 30 30</p>
+                </div>
+
+                <nav class={{ styles.dashboard }}>
+                    <div class={{ styles.phone }}>
+                        <p class={{ styles.title }}>
+                            <a href="/chat/profile/change_info">Изменить данные</a>
+                        </p>
+                    </div>
+                    <div class={{ styles.phone }}>
+                        <p class={{ styles.title }}>
+                            <a>Изменить пароль</a>
+                        </p>
+                    </div>
+                    <div class={{ styles.phone }}>
+                        <p class={{ styles.title }} >
+                            <a class={{ styles.exit }}>Выйти</a>
+                        </p>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>

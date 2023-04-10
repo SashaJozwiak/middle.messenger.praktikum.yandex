@@ -1,0 +1,60 @@
+<div class= {{ styles.container }}>
+
+    <div id='chat-list' class={{ styles.chat-list }}></div>
+
+    <div id='chat-space' class={{ styles.chat-space }}>
+
+        <div class={{ styles.info-bar }}>
+            <div class={{ styles.user}}>
+                <div class={{ styles.avatar }}></div>
+                <h4 class={{ styles.user-name}}>Вадим</h4>
+            </div>
+            <div class={{ styles.info }}></div>
+            <div class={{ styles.settings }}>...</div>
+        </div>
+
+        <div class={{ styles.chat }}>
+            <div class={{ styles.date }}>19 июня</div>
+            <div class={{ styles.in-mess }} {{ styles.in-mess-first }}>
+                <p>Привет! Смотри, тут всплыл интересный кусок лунной космической истории — 
+                НАСА в какой-то момент попросила Хассельблад адаптировать модель SWC для полетов на Луну. 
+                Сейчас мы все знаем что астронавты летали с моделью 500 EL — и к слову говоря, все тушки 
+                этих камер все еще находятся на поверхности Луны, так как астронавты с собой забрали только 
+                кассеты с пленкой.</p>
+                <p>Хассельблад в итоге адаптировал SWC для космоса, но что-то пошло не так и на ракету 
+                они так никогда и не попали. Всего их было произведено 25 штук, одну из них недавно 
+                продали на аукционе за 45000 евро.</p>
+                <div class= {{ styles.status }}>11:56</div>
+            </div>
+            <div class={{ styles.in-mess}} {{ styles.in-mess-second }}>
+                <img src="public/images/camera.jpg" alt="">
+                <div class= {{ styles.status }}>11:56</div>
+            </div>
+            <div class={{ styles.out-mess }}>
+                <p>Круто!</p>
+                <div class= {{ styles.status }}>
+                    
+                    <p><img src="public/images/send_ok.svg" alt="send ok image">12:00</p>
+                    </div>
+            </div>
+        </div>
+
+        <div class={{ styles.message-container }}>
+            <button><img src="public/images/clip.svg" alt="clip-img"></button>
+            <div>
+                <form action="">
+                    <label for="search">
+                    <input name="message" id="search" type="text" placeholder="Сообщение">
+                    </label>
+                </form>
+            </div>
+            <div>
+                <button>
+                    <img src="public/images/arrow.svg" alt="clip-img">
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+</div>

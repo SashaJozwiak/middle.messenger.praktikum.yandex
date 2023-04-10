@@ -1,0 +1,49 @@
+<div class={{ styles.container }}>
+    <div class={{ styles.sidebar }}>
+            <a href="/chat"><img src="/public/images/arrow_left.svg" alt="img_arrow_left"></a>
+    </div>
+
+    <div class={{ styles.profile }}>
+        
+        <div class={{ styles.data }}>
+            <div class={{ styles.avatar }}>
+                <img src="/public/images/ava.svg" alt="avatar">
+                <label class="input-avatar">
+                    Поменять <br> аватар
+                    <input class="input-avatar_btn" id="avatar" type="file" name="avatar">		
+                </label>
+            </div>
+
+            <div class={{ styles.name }}>Иван</div>
+
+            <form class={{ styles.profile-info }}>
+                <div class={{ styles.email }}>
+                    <p class={{ styles.title }}>Почта</p>
+                    <input class={{ styles.input-email }} name="email" id="email" type="email" placeholder="pochta@yandex.ru">
+                </div>
+                <div class={{ styles.login }}>
+                    <p class={{ styles.title }}>Логин</p>
+                    <input class={{ styles.input-email }} name="login" id="login" type="text" placeholder="ivanivanov">
+                </div>
+                <div class={{ styles.firstname }}>
+                    <p class={{ styles.title }}>Имя</p>
+                    <input class={{ styles.input-email }} name="first_name" id="first_name" type="text" placeholder="Иван">
+                </div>
+                <div class={{ styles.lastname }}>
+                    <p class={{ styles.title }}>Фамилия</p>
+                    <input class={{ styles.input-email }} name="second_name" id="second_name" type="text" placeholder="Иванов">
+                </div>
+                <div class={{ styles.nickname }}>
+                    <p class={{ styles.title }}>Имя в чате</p>
+                    <input class={{ styles.input-email }} name="display_name" id="display_name" type="text" placeholder="Иван">
+                </div>
+                <div class={{ styles.phone }}>
+                    <p class={{ styles.title }}>Телефон</p>
+                    <input class={{ styles.input-email }} name="phone" id="phone" type="phone" placeholder="+7 (909) 967 30 30">
+                </div>
+
+                <button class={{ styles.save }}>Сохранить</button>
+            </form>
+        </div>
+    </div>
+</div>

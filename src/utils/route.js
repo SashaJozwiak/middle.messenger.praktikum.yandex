@@ -3,6 +3,7 @@ import { registerPage as rP } from "../pages/register/index.js";
 import { page404, page500 } from './../pages/errors/index.js';
 import { chatPage as cP } from "../pages/chat/index.js";
 import { profilePage as pP } from './../pages/profile/index.js';
+import { changeInfoPage as cI } from "../pages/changeInfo/index.js";
 
 
 import addComponents from "./addComponents.js";
@@ -26,6 +27,8 @@ export function handleRoute() {
         page = cP;
     } else if (path === '/chat/profile') {
         page = pP;
+    } else if (path === '/chat/profile/change_info') {
+        page = cI;
     }
 
     main.innerHTML = page;

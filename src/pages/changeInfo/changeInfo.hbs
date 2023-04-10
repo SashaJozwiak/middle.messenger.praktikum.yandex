@@ -16,49 +16,34 @@
 
             <div class={{ styles.name }}>Иван</div>
 
-            <div class={{ styles.profile-info }}>
+            <form class={{ styles.profile-info }}>
                 <div class={{ styles.email }}>
                     <p class={{ styles.title }}>Почта</p>
-                    <p class={{ styles.value }}>pochta@yandex.ru</p>
+                    <input class={{ styles.input-email }} name="email" id="email" type="email" placeholder="pochta@yandex.ru">
                 </div>
                 <div class={{ styles.login }}>
                     <p class={{ styles.title }}>Логин</p>
-                    <p class={{ styles.value }}>ivanivanov</p>
+                    <input class={{ styles.input-email }} name="login" id="login" type="text" placeholder="ivanivanov">
                 </div>
                 <div class={{ styles.firstname }}>
                     <p class={{ styles.title }}>Имя</p>
-                    <p class={{ styles.value }}>Иван</p>
+                    <input class={{ styles.input-email }} name="first_name" id="first_name" type="text" placeholder="Иван">
                 </div>
                 <div class={{ styles.lastname }}>
                     <p class={{ styles.title }}>Фамилия</p>
-                    <p class={{ styles.value }}>Иванов</p></div>
+                    <input class={{ styles.input-email }} name="second_name" id="second_name" type="text" placeholder="Иванов">
+                </div>
                 <div class={{ styles.nickname }}>
                     <p class={{ styles.title }}>Имя в чате</p>
-                    <p class={{ styles.value }}>Иван</p>
+                    <input class={{ styles.input-email }} name="display_name" id="display_name" type="text" placeholder="Иван">
                 </div>
                 <div class={{ styles.phone }}>
                     <p class={{ styles.title }}>Телефон</p>
-                    <p class={{ styles.value }}>+7 (909) 967 30 30</p>
+                    <input class={{ styles.input-email }} name="phone" id="phone" type="phone" placeholder="+7 (909) 967 30 30">
                 </div>
 
-                <nav class={{ styles.dashboard }}>
-                    <div class={{ styles.phone }}>
-                        <p class={{ styles.title }}>
-                            <a href="/chat/profile/change_info">Изменить данные</a>
-                        </p>
-                    </div>
-                    <div class={{ styles.phone }}>
-                        <p class={{ styles.title }}>
-                            <a>Изменить пароль</a>
-                        </p>
-                    </div>
-                    <div class={{ styles.phone }}>
-                        <p class={{ styles.title }} >
-                            <a class={{ styles.exit }}>Выйти</a>
-                        </p>
-                    </div>
-                </nav>
-            </div>
+                <button class={{ styles.save }}>Сохранить</button>
+            </form>
         </div>
     </div>
 </div>
